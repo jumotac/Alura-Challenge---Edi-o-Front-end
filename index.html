@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Alura Challenge - Edição Front-end</title>
+	<link rel="stylesheet" href="/css/reset.css">
+	<link rel="stylesheet" href="/css/dracula.css">
+	<link rel="stylesheet" href="/css/style.css">
+	
+</head>
+<body spellcheck="false">
+
+	<header>
+		<div class="container-header">
+			<div class="logo-alura">
+				<img src="/img/logoAlura.png" class="img-logoAlura" alt="Logo da Alura"/>
+					<a href="#" class="link-alura"></div>
+			<div class="pesquisa">
+				<form>
+					<input type="text" nome="pesquisar-input" id="busca" class="pesquisar-input" placeholder="Busque por algo">
+				</form></div>		
+			<div class="perfil">
+				<img src="https://avatars.githubusercontent.com/u/84103586?s=400&u=e01317bd8448d9bc481b68b77a10fd1f8b8ce743&v=4"
+					class="foto-perfil" alt="Foto do Perfil"/>
+						<a href="#" class="link-perfil">Juliana</a>
+			</div>
+			<div class="lupa-header">
+				<img src="/img/lupa.png"
+					class="lupa" alt="Imagem da Lupa"/>
+						<a href="#" class="lupa-pesquisa"></a>
+			</div>
+			<div class="menu-hamburguer">
+				<img src="/img/hamburguer.png"
+					class="hamburguer" alt="Imagem do Menu Hamburguer"/>
+						<a href="#" class="barra-menu"></a>
+			</div>
+			
+	</header>
+
+	<main>
+		<div class="container-main">
+			<nav class="menu-esquerdo">
+				<h1> Menu</h1>
+					<div class="menu-code">
+						<a href="index.html" class="link-menu">
+						<button><img src="/img/vector-editor.png" alt="Ícone do código"></button>Editor de código</a>		
+					</div>
+
+					<div class="menu-comunidade">
+						<a href="comunidade.html" class="link-menu">
+						<button><img src="/img/vector-comunidade.png" alt="Ícone da comunidade"></button>Comunidade</a>			
+					</div>
+			</nav>
+
+
+			<div class="editor">
+                <div class="borda-editor">
+				    <div class="editor-projeto">
+                        <div class="botao-vermelho">
+                        <div class="botao-amarelo">
+                        <div class="botao-verde">
+                            </div></div></div>
+					
+						<div class="codigo-editor area-editor">
+							<code class="preview hljs" contenteditable="true" aria-label="editor"></code>
+						</div>		
+				    </div>
+                 </div>
+				<button class="botao-visual">Visualizar com o highlight</button>		
+			</div>
+
+			
+
+			<div class="projeto">
+				<h1>Seu Projeto</h1>				
+				<form>
+					<input type="text" nome="nome-projeto"  class="nome-projeto" id="seu-projeto" placeholder="Nome do seu projeto"></input>
+					<textarea class="detalhe-projeto" id="detalhamento" placeholder="Descrição do seu projeto"></textarea>
+				</form>
+				
+				<h1>Personalização</h1>
+				<div class="personalizar">
+					<select name="linguagem" id="linguagem" class="lista-linguagem"> 
+						<option value="javascript"> Javascript </option>
+						<option value="html"> HTML </option>
+						<option value="css"> CSS </option>
+					</select>
+					<input type="color" value="#FFFFFF" class="botao-colorido"/>
+				</div>
+				<button class="salvar">Salvar Projeto</button>
+			</div>
+		</div>
+	</main>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+	<script src="/js/index.js"></script>
+</body>
+</html>
+
+    
