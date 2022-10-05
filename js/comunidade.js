@@ -49,9 +49,10 @@ function criaCartao(projeto) {
             	</div>
 
                 <div class="perfil">
-					<div class="foto-perfil" alt="Foto do Perfil"/>
-                    	<span class="nome">@Juliana</span>
-                </div>	
+				    <img src="https://avatars.githubusercontent.com/u/84103586?s=400&u=e01317bd8448d9bc481b68b77a10fd1f8b8ce743&v=4"
+					class="foto-perfil usuario" alt="Foto do Perfil"/>
+                    <span class="nome">@Juliana</span>
+			    </div>
             </div>        
     `
     return cartao

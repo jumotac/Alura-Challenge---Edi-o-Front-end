@@ -235,25 +235,38 @@ code.preview {
 }
 
 .preview:hover .comentarios {
-    background: url(/img/vector-comentarios.png) no-repeat;
+    background: url('./img/vector-comentarios.png') no-repeat;
     display: flex;
 }
 
 
 .preview:hover .curtidas {
     margin-right: 230px;
-    background: url(/img/vector-curtida.png) no-repeat;
+    background: url('./img/vector-curtida.png') no-repeat;
     display: flex;
 }
 
-.preview:hover .perfil {
-    background: url(/img/Capturar.JPG) center;
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.usuario {
+    display: none;
+}
+
+.preview:hover .usuario {
     border-radius: 100%;
     display: flex;
 }
 
 .nome {
     display: none;
+} 
+
+.preview:hover .nome {
+    display: flex;
+    margin-left: 1em;
 }
 
 .preview:hover .span {
