@@ -14,7 +14,7 @@
 Esse foi o primeiro CHALLENGE que participei da **ALURA** e nunca vou me esquecer, pois foi a experiência de um ammbient real de trabalho.
 
 
-Serão 4 semanas para você implementar um sistema com HTML, CSS, JavaScript e até frameworks SPA, do básico ao avançado, com suporte de especialistas via Discord.
+Foram 4 semanas para implementar um sistema com HTML, CSS, JavaScript e até frameworks SPA, do básico ao avançado, com suporte de especialistas via Discord.
 
 **01 - semana:**    
 Implementacao do projeto AluraDev com HTML e CSS baseado em um Figma.
