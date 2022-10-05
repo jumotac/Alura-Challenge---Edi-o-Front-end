@@ -1,4 +1,18 @@
+| :placard: Vitrine.Dev |     |
+| ------------- | --- |
+| :sparkles: Nome | **Alura Challenge Front-End 1ª Edição - Editor de Código** 
+| :label: Tecnologias | JAVASCRIPT, HTML, CSS 
+| :rocket: URL | https://jumotac.github.io/AluraChallenge-Editor/
+| :fire: Desafio | Alura Challenge Front-End 1 Edição: Implementação de um Editor de Código
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://raw.githubusercontent.com/jumotac/AluraChallenge-Editor/89f922a024f34bb541599354e10f2fd2f9fdb5c6/img/editor-codigo.png#vitrinedev)
+
+
 # Sobre o Desafio Editor de Código Online :desktop_computer: 
+
+Esse foi o primeiro CHALLENGE que participei da **ALURA** e nunca vou me esquecer, pois foi a experiência de um ammbient real de trabalho.
+
 
 Serão 4 semanas para você implementar um sistema com HTML, CSS, JavaScript e até frameworks SPA, do básico ao avançado, com suporte de especialistas via Discord.
 
